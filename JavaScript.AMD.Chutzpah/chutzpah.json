@@ -1,0 +1,9 @@
+{
+   "Framework": "jasmine",
+   "TestHarnessReferenceMode": "AMD",
+   "TestHarnessLocationMode": "SettingsFileAdjacent",
+   "References" : [
+      { "Path": "FrontEndTools.WebUI/lib/require.js" },
+	  { "Path": "FrontEndTools.WebUI.Scripts.Test/config.js" }
+    ]
+}

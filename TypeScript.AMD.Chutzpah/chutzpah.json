@@ -1,0 +1,11 @@
+{
+   "Framework": "jasmine",
+   "TestHarnessReferenceMode": "AMD",
+   "TypeScriptModuleKind": "AMD",
+   "References" : [
+      { "Path": "FrontEndTools.WebUI/lib/knockout.js" },
+      { "Path": "FrontEndTools.WebUI/lib/require.js" },
+      { "Path": "FrontEndTools.WebUI", "IncludeInTestHarness": "false" },
+      { "Path": "FrontEndTools.WebUI.Scripts.Test", "IncludeInTestHarness": "false" },
+    ]
+}

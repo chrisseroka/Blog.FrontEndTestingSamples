@@ -1,0 +1,7 @@
+{
+   "Framework": "jasmine",
+   "TestHarnessReferenceMode": "Normal",
+   "References" : [
+      { "Path": "FrontEndTools.WebUI/lib/knockout.js" }
+    ]
+}

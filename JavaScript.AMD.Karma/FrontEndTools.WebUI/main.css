@@ -1,0 +1,37 @@
+﻿.color-box {
+    font-family: Verdana;
+    color: #70DAB9;
+    padding: 5px 20px;
+    width: 300px;
+    border: solid 2px #1e1e1e;
+    background-color: #2D2D30;
+}
+
+.color-box h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+.color-box label {
+    width: 40px;
+}
+
+.color-box .preview {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #70DAB9;
+    background-color: #00F;
+    float: right;
+}
+
+.color-box input {
+    width: 170px;
+}
+.color-box .small {
+    width: 50px
+}
+
+.color-box .button-pane {
+    text-align: center;
+    margin: 10px;
+}
