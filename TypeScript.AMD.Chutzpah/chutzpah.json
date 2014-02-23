@@ -1,11 +1,13 @@
 {
    "Framework": "jasmine",
+   "TestHarnessLocationMode": "SettingsFileAdjacent",
    "TestHarnessReferenceMode": "AMD",
    "TypeScriptModuleKind": "AMD",
    "References" : [
-      { "Path": "FrontEndTools.WebUI/lib/knockout.js" },
       { "Path": "FrontEndTools.WebUI/lib/require.js" },
-      { "Path": "FrontEndTools.WebUI", "IncludeInTestHarness": "false" },
-      { "Path": "FrontEndTools.WebUI.Scripts.Test", "IncludeInTestHarness": "false" },
+	  { "Path": "FrontEndTools.WebUI.Scripts.Test/config.js" },
+	  { "Path": "FrontEndTools.WebUI/lib", "Include": "*.js", "IncludeInTestHarness": "false" },
+      { "Path": "FrontEndTools.WebUI/", "Include": "*.ts", "IncludeInTestHarness": "false" },
+      { "Path": "FrontEndTools.WebUI.Scripts.Test", "Include": "*.ts", "IncludeInTestHarness": "false" },
     ]
 }

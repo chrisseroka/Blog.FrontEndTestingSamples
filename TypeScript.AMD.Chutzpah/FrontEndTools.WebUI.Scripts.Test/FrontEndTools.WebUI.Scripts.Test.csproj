@@ -41,6 +41,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="config.js" />
     <Content Include="lib\jasmine\jasmine.js" />
     <TypeScriptCompile Include="lib\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="Tests\Services\ColorCalculatorTest.ts" />

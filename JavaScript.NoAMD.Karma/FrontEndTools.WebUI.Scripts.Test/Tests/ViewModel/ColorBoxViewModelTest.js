@@ -1,5 +1,5 @@
-﻿///<reference path="/../FrontEndTools.WebUI/ViewModels/ColorBoxViewModel.js"/>
-///<reference path="/lib/jasmine/jasmine.js"/>
+﻿///<reference path="../../../FrontEndTools.WebUI/ViewModels/ColorBoxViewModel.js"/>
+///<reference path="../../lib/jasmine/jasmine.js"/>
 
 //---------------------------------------------------------------------
 describe("ColorBoxViewModel tests", function () {

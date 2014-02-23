@@ -1,5 +1,5 @@
-﻿///<reference path="/../FrontEndTools.WebUI/Services/ColorCalculator.js"/>
-///<reference path="/lib/jasmine/jasmine.js"/>
+﻿///<reference path="../../../FrontEndTools.WebUI/Services/ColorCalculator.js"/>
+///<reference path="../../lib/jasmine/jasmine.js"/>
 
 //---------------------------------------------------------------------
 describe("ColorCalculator tests", function () {

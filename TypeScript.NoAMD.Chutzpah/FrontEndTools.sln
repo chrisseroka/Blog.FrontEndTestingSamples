@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndTools.WebUI", "FrontEndTools.WebUI\FrontEndTools.WebUI.csproj", "{C0369B2C-3BF5-4B01-904D-F217627625DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndTools.WebUI.Scripts.Test", "FrontEndTools.WebUI.Scripts.Test\FrontEndTools.WebUI.Scripts.Test.csproj", "{C640283C-1C51-40ED-8F01-319CCEE189D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{D06BA799-762D-4C90-9900-BED2399CE67D}"
+	ProjectSection(SolutionItems) = preProject
+		chutzpah.json = chutzpah.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
