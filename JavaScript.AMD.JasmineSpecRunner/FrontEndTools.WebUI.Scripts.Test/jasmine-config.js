@@ -1,4 +1,4 @@
-require(['jquery', 'jasmine-html', 'tests'], function ($, jasmine, tests) {
+require(['jasmine-html', 'tests'], function (jasmine, tests) {
 
     var jasmineEnv = jasmine.getEnv();
     jasmineEnv.updateInterval = 1000;
@@ -11,10 +11,7 @@ require(['jquery', 'jasmine-html', 'tests'], function ($, jasmine, tests) {
         return htmlReporter.specFilter(spec);
     };
 
-    $(function () {
-        require(tests, function (spec) {
-            jasmineEnv.execute();
-        });
+    require(tests, function (spec) {
+        jasmineEnv.execute();
     });
-
 });

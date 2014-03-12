@@ -14,13 +14,12 @@
 
             define('tests', [], function () {
                 var result = [];
-                result.push("/Tests/Services/asdf");
+                result.push("Tests/Services/ColorCalculatorTest");
+                result.push("Tests/ViewModel/ColorBoxViewModelTest");
                 return result;
             });
 
-            require(["jasmine-config"], function () {
-
-            });
+            require(["jasmine-config"], function () { });
         });
     </script>
 </body>
